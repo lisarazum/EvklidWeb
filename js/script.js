@@ -1,16 +1,11 @@
 window.addEventListener('DOMContentLoaded', function() {
 
-  // $('.header-burger__header').click(function() {
-  //     $('.header-burger__header').toggleClass('open-menu');
-  //     $('.header-nav').toggleClass('open-menu');
-  // });
-
   document.querySelector('.header-burger__header').addEventListener('click', function() {
     document.querySelector('.header-nav').classList.toggle('open-menu'),
     document.querySelector('.header-burger__header').classList.toggle('open-menu')
   })
 
-  const swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 10,

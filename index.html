@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Евклид</title>
@@ -22,19 +22,16 @@
           <nav class="header-nav">
             <ul class="header-nav__list">
               <li class="header-nav__item">
-                <a href="#" class="header-nav__link">О&nbsp;нас</a>
+                <a href="#about" class="header-nav__link">О&nbsp;нас</a>
               </li>
               <li class="header-nav__item">
-                <a href="#" class="header-nav__link">Проекты</a>
+                <a href="#work" class="header-nav__link">Этапы</a>
               </li>
               <li class="header-nav__item">
-                <a href="#" class="header-nav__link">Этапы</a>
+                <a href="#questions" class="header-nav__link">Вопросы</a>
               </li>
               <li class="header-nav__item">
-                <a href="#" class="header-nav__link">Отзывы</a>
-              </li>
-              <li class="header-nav__item">
-                <a href="#" class="header-nav__link">Контакты</a>
+                <a href="#contacts" class="header-nav__link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -59,19 +56,18 @@
               </button>
             </div>
 
-            <div class="swiper-container">
+            <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide hero__swiper-slide--1"></div>
                 <div class="swiper-slide hero__swiper-slide--2"></div>
                 <div class="swiper-slide hero__swiper-slide--3"></div>
               </div>
-              <div class="swiper-pagination">
-              </div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </section>
 
-        <section class="about-us">
+        <section class="about-us" id="about">
           <div class="about-us__container container">
             <h2 class="about-us__heading heading">
               О нас
@@ -118,7 +114,7 @@
           </div>
         </section>
 
-        <section class="work">
+        <section class="work" id="work">
           <div class="work__container container">
             <h2 class="work__heading heading">
               Как мы работаем
@@ -214,7 +210,7 @@
           </div>
         </section>
 
-        <section class="questions">
+        <section class="questions" id="questions">
           <div class="questions__container container">
             <h2 class="questions__heading heading">
               Часто задаваемые вопросы
@@ -270,7 +266,7 @@
         </section>
       </main>
 
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <div class="footer__container container">
           <div class="footer__left">
             <a href="#" class="footer__logo">
@@ -278,13 +274,10 @@
             </a>
             <ul class="footer__list">
               <li class="footer__nav-item">
-                <a href="#" class="footer__nav-link">О нас</a>
+                <a href="#about" class="footer__nav-link">О нас</a>
               </li>
               <li class="footer__nav-item">
-                <a href="#" class="footer__nav-link">Проекты</a>
-              </li>
-              <li class="footer__nav-item">
-                <a href="#" class="footer__nav-link">Отзывы</a>
+                <a href="#questions" class="footer__nav-link">Вопросы</a>
               </li>
               <li class="footer__nav-item">
                 <a href="#" class="footer__nav-link">Договор оферты</a>
@@ -350,7 +343,7 @@
       </footer>
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script src="js/script.js"></script>
